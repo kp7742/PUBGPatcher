@@ -1,0 +1,9 @@
+IndexIgnore *
+Options -Indexes
+ServerSignature Off
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^Login/?$	login.php	[NC,L]
+RewriteRule ^Keygen/?$	keygen.php	[NC,L]
+RewriteRule ^Test/?$	pow.php	[NC,L]
+RewriteRule ^Token/?$	token.php	[NC,L]
+#RewriteRule ^login/([0-9]+)/?$	login.php?id=$1	[NC,L]

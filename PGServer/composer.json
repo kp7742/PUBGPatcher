@@ -1,0 +1,17 @@
+{
+  "name": "PGServer",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Kuldip Patel",
+      "email": "patel.kuldip91@gmail.com"
+    }
+  ],
+  "description": "PUBG Token Server",
+  "require": {
+    "ext-sodium": "*",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-mysqli": "*"
+  }
+}
